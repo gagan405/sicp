@@ -12,7 +12,17 @@ object SicpMathUtils {
   def square(i:Integer) = i * i
 
   /**
+   * square any number
+   */
+  def square(x:Float) = x * x
+
+  /**
    * max of a 2 numbers
    */
   def max(a:Int, b:Int) = if(a > b) a else b
+
+  /**
+   * Sum of squares
+   */
+  def sumOfSquares(a: Int, b:Int) = square(a) + square(b)
 }
